@@ -21,15 +21,29 @@
 //= require_self
 //= require activestorage
 
+
 $(document).on('turbolinks:load',function(){
 
   // テキストエリアの欄を記入されたテキストに合わせて広げる
-  var $textarea = $('#textarea');
-  var lineHeight = parseInt($textarea.css('lineHeight'));
+  let $textarea = $('#textarea');
+  let lineHeight = parseInt($textarea.css('lineHeight'));
   $textarea.on('input', function(e){
-    var lines = ($(this).val() + '\n').match(/\n/g).length;
+    let lines = ($(this).val() + '\n').match(/\n/g).length;
     $(this).height(lineHeight * lines);
   });
 
+  // いいねボタンアニメーション
+  $('.likes').on('click',function(){
+    let $btn = $('#heart');
+
+    if($btn.hasClass('on')){
+      $btn.removeClass('on');
+      $btn.removeClass("HeartAnimation");
+      $btn.css("background-position","right");
+    } else {
+      $btn.addClass('on');
+      $btn.addClass('HeartAnimation');
+    }
+  });
 
 });

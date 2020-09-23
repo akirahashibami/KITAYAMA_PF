@@ -246,6 +246,34 @@ body{
   }
 }
 
+@keyframes heartBlast{
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+.HeartAnimation{
+  display: inline-block;
+  background-position: right;
+  animation-name: heartBlast;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+}
+
+#heart{
+  width: 35px;
+  height: 35px;
+  left: -48px;
+  background: image-url("web_heart_animation.png");
+  background-repeat: no-repeat;
+  background-size: 2900%;
+  cursor: pointer;
+}
+
 
 header{
   position: absolute;
