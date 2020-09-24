@@ -274,6 +274,18 @@ body{
   cursor: pointer;
 }
 
+#hearts{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  left: -48px;
+  background: image-url("web_heart_animation.png");
+  background-repeat: no-repeat;
+  background-size: 2900%;
+  background-position: right;
+  cursor: pointer;
+}
+
 
 header{
   position: absolute;

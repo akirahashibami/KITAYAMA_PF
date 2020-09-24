@@ -45,6 +45,9 @@
     }
     .likes{
       font-size: .8rem;
+      .like-count{
+        margin-left: 20%;
+      }
     }
   }
 }
@@ -92,6 +95,10 @@
 
       p{
         margin: 0;
+      }
+
+      .like-count{
+        margin-left: 80%; 
       }
 
       #fa-icon{

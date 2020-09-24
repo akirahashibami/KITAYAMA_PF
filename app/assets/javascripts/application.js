@@ -32,18 +32,4 @@ $(document).on('turbolinks:load',function(){
     $(this).height(lineHeight * lines);
   });
 
-  // いいねボタンアニメーション
-  $('.likes').on('click',function(){
-    let $btn = $('#heart');
-
-    if($btn.hasClass('on')){
-      $btn.removeClass('on');
-      $btn.removeClass("HeartAnimation");
-      $btn.css("background-position","right");
-    } else {
-      $btn.addClass('on');
-      $btn.addClass('HeartAnimation');
-    }
-  });
-
 });
