@@ -58,7 +58,7 @@ Youtubeよりも手軽で、Instagramよりももっと思い出に残せるよ�
 https://docs.google.com/spreadsheets/d/14TFi8kAOpiDLktZ2ulnUEtPzVRp8pghXeDiATV-1jfE/edit#gid=0
 
 ## 開発環境
-- OS：mac(Catalina)
+- OS：Linux(CentOS)
 - 言語：HTML,CSS,JavaScript,Ruby,SQL
 - フレームワーク：Ruby on Rails
 - JSライブラリ：jQuery
