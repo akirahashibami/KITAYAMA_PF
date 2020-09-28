@@ -59,9 +59,10 @@ https://docs.google.com/spreadsheets/d/14TFi8kAOpiDLktZ2ulnUEtPzVRp8pghXeDiATV-1
 
 ## 開発環境
 - OS：Linux(CentOS)
-- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- 言語：HTML,Sass,JavaScript,Ruby,SQL
 - フレームワーク：Ruby on Rails
 - JSライブラリ：jQuery
+- ライブラリ:Bootstrap
 - 仮想環境：Vagrant,VirtualBox
 - ストレージ:S3
 
